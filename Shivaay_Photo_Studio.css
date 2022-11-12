@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.font-medium {
+    font-size: 18px;
+}
+
+.Web-Style h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: -55px;
+    border: 1px solid rgb(79 70 229 / var(--tw-text-opacity));
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 5px;
+    --tw-text-opacity: 1;
+    background: brown !important;
+}
+
+.group {
+    transition: 0.4s;
+}
+
+.group:hover {
+    transform: scale(1.1);
+}
+
+.naav {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.naav:hover {
+    color: brown;
+}
+
+@media(min-width:290px) and (max-width:450px) {
+    .naav {
+        padding-left: 9px;
+        font-size: 12px;
+    }
+}
+
+@media(min-width:450px) and (max-width:700px) {
+    .naav {
+        padding-left: 13px;
+        font-size: 14px;
+    }
+}
+
+@media(min-width:300px) and (max-width:500px) {
+    #image img {
+        text-align: center;
+    }
+}
+
+#Button {
+    background: brown;
+    color: white;
+    padding: 15px, 20px;
+    padding: 12px 25px;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#Button:hover {
+    background: #ffffff;
+    color: brown;
+    border: 1px solid brown;
+
+}
+
+#fb {
+    right: 7px;
+    position: fixed;
+    bottom: 40%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: all .6s;
+    cursor: pointer;
+    padding: 1px;
+    background-color: blue;
+    z-index: 10;
+}
+
+#wt {
+    right: 7px;
+    position: fixed;
+    bottom: 50%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: all .6s;
+    cursor: pointer;
+    padding: 1px;
+    background-color: rgb(60, 209, 60);
+    z-index: 10;
+}
+
+#int {
+    right: 7px;
+    position: fixed;
+    bottom: 59%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: all .6s;
+    cursor: pointer;
+    padding: 1px;
+    background-color: rgb(188, 54, 21);
+    z-index: 10;
+}
+
+#yt {
+    right: 7px;
+    position: fixed;
+    bottom:30%;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    transition: all .6s;
+    cursor: pointer;
+    padding: 1px;
+    background-color: rgb(208, 14, 14);
+    z-index: 10;
+}
+
+/* scroll to top button */
+html {
+    scroll-behavior: smooth;
+}
+
+#Scroll {
+    display: none;
+    position: fixed;
+    bottom: 46px;
+    right: 7px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: brown;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    height: 50px;
+    width: 50px;
+    transition: all .6s;
+}
+
+#Scroll:hover {
+    background-color: rgb(246, 46, 46);
+}
+
+.end {
+    background-color: brown;
+    color: white;
+    /* padding-left: 33%; */
+    font-size: 19px;
+    font-style: normal;
+    text-align: center;
+}
